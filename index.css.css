@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: #94d9ea;
+}
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: #00324a;
+}
+.right-section{
+    background-color: #f7f7f7;
+    grid-column: span 5;
+    height: 100%;
+}
+.left-content{
+    padding: 1rem 3rem;
+}
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #002333 ;
+}
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #002333;
+}
+.name{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+
+}
+
+.Career{
+    font-size: 1.2rem;
+    color: #9ad8ea;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom:1rem ;
+}
+.main-title{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f7f7f7ec;
+    padding-top: 3rem;
+
+}
+.contact-info ul{
+    padding: 4rem;
+}
+.contact-info ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    color: #718096;
+}
+.contact-info ul li i{
+    padding-right: 1rem;
+    font-size: 1.1rem;
+    color: #2d9cdb;
+}
